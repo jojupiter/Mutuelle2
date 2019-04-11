@@ -1,0 +1,33 @@
+	Pour déployer cet application vous devez suivre les étapes suivantes:
+	
+	1- Installer un serveur Mysql dans votre serveur puis importer la base de données meenspy.sql que nous avons mis dans le document
+
+	2- Decompressez le fichier advanced.rar dans votre serveur apache (Exemple : 
+htdocs dans XAMPP et www dans WAMP), NB : Eviter d'avoir /advanced/advanced/*
+	(ici * représente des fichiers et des dossiers). Dans ce cas ramener ces derniers 
+dans le premier dossier advanced.
+	
+	
+	3- Demarrer votre serveur mysql et apache
+
+	4- Ouvrir votre navigateur (Nous vous recommandons la dernière version de Google Chrome) 
+	   et saissiser l'url : http://localhost/advanced/frontend/web/index.php
+
+	5- Cliquer sur le button login pour se connecter
+
+	6 - username = admin  ;  password = epsilon
+
+	7 - Une fois connecté cliquez sur Member Space pour vous connecter à l'espace administrateur
+
+	8 - L'utilisation à ce niveau est décrite dans le manuel d'utilisation( Créer d'abord un exercice, puis une session avant tout autre manipulation)
+
+	9 - Après avoir manipulé, vous déconnecter en cliquant sur Logout dans la barre de navigation
+
+
+
+
+deb http://archive.ubuntu.com/ubuntu bionic main restricted universe
+deb http://archive.ubuntu.com/ubuntu bionic-security main
+deb http://archive.ubuntu.com/ubuntu bionic-updates main
+
+
